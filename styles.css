@@ -20,16 +20,25 @@ body {
 .logo {
   margin: auto;
  background-image: linear-gradient(to bottom, #dffffe, #92fbf9, #dffffe);
-  text-align: center;
   margin-top: 56px;
   height: 30%;
 }
 
 .logo-pic {
-  width: 40%;
-  position: relative;
-  bottom: 20px;
+  width: 30%;
   animation: logo 2s ease;
+}
+.atc{
+  text-align: center;
+  align-content: center;
+}
+.white {
+  height: 30%;
+}
+
+.blue {
+ height: 30%; 
+ background-image: linear-gradient(to bottom, #dffffe , #92fbf9 25%, #dffffe );
 }
 
 @keyframes logo {
