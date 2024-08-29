@@ -7,3 +7,41 @@ body {
   /*  overflow-x: hidden; */
     scroll-behavior: smooth;
 }
+
+.navbar {
+  padding: 5;
+  background-color: #0330d5	;
+
+}
+#hom {
+  padding-left: 10;
+}
+
+.logo {
+  margin: auto;
+ background-image: linear-gradient(to bottom, #dffffe, #92fbf9, #dffffe);
+  text-align: center;
+  margin-top: 56px;
+  height: 30%;
+}
+
+.logo-pic {
+  width: 40%;
+  position: relative;
+  bottom: 20px;
+  animation: logo 2s ease;
+}
+
+@keyframes logo {
+  from {
+    opacity: 0%;
+    scale: 80%;
+
+}
+
+to {
+    opacity: 100%;
+    scale: 100%;
+
+}
+}
