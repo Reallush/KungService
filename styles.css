@@ -47,6 +47,10 @@ html {
  background-image: linear-gradient(to bottom, #dffffe , #92fbf9 25%, #dffffe );
 }
 
+.adv,pcx {
+  width: 45%;
+}
+
 @keyframes logo {
   from {
     opacity: 0%;
