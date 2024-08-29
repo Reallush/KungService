@@ -7,11 +7,17 @@ body {
   /*  overflow-x: hidden; */
     scroll-behavior: smooth;
 }
+html {
+  animation: page 3s ease
+}
 
 .navbar {
   padding: 5;
   background-color: #0330d5	;
 
+}
+.nav-link {
+  text-align: center;
 }
 #hom {
   padding-left: 10;
@@ -26,7 +32,7 @@ body {
 
 .logo-pic {
   width: 30%;
-  animation: logo 2s ease;
+  animation: logo 5s ease ;
 }
 .atc{
   text-align: center;
@@ -51,6 +57,19 @@ body {
 to {
     opacity: 100%;
     scale: 100%;
+
+}
+}
+
+
+@keyframes page {
+  from {
+    opacity: 0%;
+
+}
+
+to {
+    opacity: 100%;
 
 }
 }
