@@ -51,9 +51,7 @@ html {
 .row{
   justify-content: space-evenly;
 }
-.adv,pcx {
-  width: 45%;
-}
+
 
 @keyframes logo {
   from {
