@@ -40,13 +40,17 @@ html {
 }
 .white {
   height: 30%;
+  width: 100%;
 }
 
 .blue {
  height: 30%; 
+ width: 100%;
  background-image: linear-gradient(to bottom, #dffffe , #92fbf9 25%, #dffffe );
 }
-
+.row{
+  justify-content: space-evenly;
+}
 .adv,pcx {
   width: 45%;
 }
