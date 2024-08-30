@@ -52,6 +52,10 @@ html {
   justify-content: space-evenly;
 }
 
+.resize {
+  height: 77%;
+}
+
 
 @keyframes logo {
   from {
@@ -78,4 +82,14 @@ to {
     opacity: 100%;
 
 }
+}
+
+@media (max-width: 800px) {
+
+  .white {
+    height: auto;
+  }
+  .blue {
+    height: auto;
+  }
 }
