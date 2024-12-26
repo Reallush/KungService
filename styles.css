@@ -43,16 +43,7 @@ html {
   align-content: center;
 }
 
-.white {
-  height: 75px;
-  width: 100%;
-}
 
-.blue {
-  height: 75%;
-  width: 100%;
-  background-image: linear-gradient(to bottom, #f9ffff, #92fbf9 25%, #f9ffff);
-}
 
 .row {
   justify-content: space-evenly;
